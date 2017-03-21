@@ -27,7 +27,7 @@ These are some basic results - images show tangent frames, detail mesh, and resu
 <div style="width:100%">
 <a href="https://mlimper.github.io/tgen/demo/landscape/index.html">        <img src="images/landscape-tangents.jpg"  width="256"></a>
 <a><img src="images/landscape-details.jpg"  width="256"></a>
-<a href="https://mlimper.github.io/tgen/demo/landscape/baked/NormalsTS.pn"><img src="images/landscape-normalmap.jpg" width="256"></a>
+<a href="https://mlimper.github.io/tgen/demo/landscape/baked/NormalsTS.png"><img src="images/landscape-normalmap.jpg" width="256"></a>
 </div>
 
 [Web Demo](https://mlimper.github.io/tgen/demo/landscape/index.html)
