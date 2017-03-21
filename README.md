@@ -3,9 +3,17 @@
 This is a very basic tangent generator, written in C++.
 The main purpose of this project is to facilitate adoption of, and discussion about, the proper setup of tangent spaces for glTF 2.0 assets.
 
+Current Features:
+* Generation of per-corner tangents for triangle data with UVs
+* Computation of per-wedge / per-UV-vertex tangent spaces
+* Tangent frame orthogonalization
+* Encoding of 4-component tangents (with "flip factor") for avoiding explicit binormals
+
 The code consists basically of one header + .cpp file.
-For debugging and visualization, there is also a simple X3D exporter in a separate file, which was used to generate the results shown below.
-So far, the code has just been compiled and tested with VS 2015.
+For debugging and visualization, there is also a simple X3D exporter in a separate file, which was used to generate the 3D visualizations shown below.
+The baked tangent-space normal maps are just provided for demonstration purposes, the actual baking code is not part of this repository.
+
+So far, the C++ code from this project has just been compiled and tested with VS 2015.
 
 Feedback and contributions are always welcome. 
 
