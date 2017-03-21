@@ -21,9 +21,12 @@ Feedback and contributions are always welcome.
 
 ## Results
 
+These are some basic results - images show tangent frames, detail mesh, and resulting baked normal map.
+
 ### Landscape
-<div>
+<div style="width:100%">
 <a href="https://mlimper.github.io/tgen/demo/landscape/index.html">        <img src="images/landscape-tangents.jpg"  width="256"></a>
+<a><img src="images/landscape-details.jpg"  width="256"></a>
 <a href="https://mlimper.github.io/tgen/demo/landscape/baked/NormalsTS.pn"><img src="images/landscape-normalmap.jpg" width="256"></a>
 </div>
 
@@ -33,6 +36,7 @@ Feedback and contributions are always welcome.
 ### Victor
 <div>
 <a href="https://mlimper.github.io/tgen/demo/victor/index.html">         <img src="images/victor-tangents.jpg"  width="256"></a>
+<a><img src="images/victor-details.jpg"  width="256"></a>
 <a href="https://mlimper.github.io/tgen/demo/victor/baked/NormalsTS.png"><img src="images/victor-normalmap.jpg" width="256"></a>
 </div>
 
