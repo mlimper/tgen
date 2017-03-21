@@ -8,6 +8,7 @@ Current Features:
 * Computation of per-wedge / per-UV-vertex tangent spaces
 * Tangent frame orthogonalization
 * Encoding of 4-component tangents (with "flip factor") for avoiding explicit binormals
+* Simple C++ implementation, no dependencies
 
 The code consists basically of one header + .cpp file.
 For debugging and visualization, there is also a simple X3D exporter in a separate file, which was used to generate the 3D visualizations shown below.
