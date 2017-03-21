@@ -1,0 +1,15 @@
+body, html, x3d
+{
+    padding:0;
+    margin:0;
+    border:none;
+    width:100%;
+    height:100%
+}
+
+body
+{
+    background:#888888;
+    background: linear-gradient(white, #E1EDF7); 
+    overflow:hidden;
+}
