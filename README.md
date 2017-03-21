@@ -31,8 +31,8 @@ Feedback and contributions are always welcome.
 
 ### Victor
 <div>
-<a href="https://mlimper.github.io/tgen/demo/victor/index.html">        <img src="images/victor-tangents.jpg"  width="256"></a>
-<a href="https://mlimper.github.io/tgen/demo/victor/baked/NormalsTS.pn"><img src="images/victor-normalmap.jpg" width="256"></a>
+<a href="https://mlimper.github.io/tgen/demo/victor/index.html">         <img src="images/victor-tangents.jpg"  width="256"></a>
+<a href="https://mlimper.github.io/tgen/demo/victor/baked/NormalsTS.png"><img src="images/victor-normalmap.jpg" width="256"></a>
 </div>
 
 [Web Demo](https://mlimper.github.io/tgen/demo/victor/index.html)
