@@ -8,6 +8,7 @@
  */
 
 #include "tgen.h"
+#include <cmath>
 
 
 // local utility definitions
@@ -122,7 +123,7 @@ namespace tgen
             // compute derivatives of positions and UVs along the edges
             for (std::size_t j = 0; j < 3; ++j)
             {                
-                const size_t next = (j + 1) % 3;
+                const std::size_t next = (j + 1) % 3;
 
                 const VIndexT v0PosIdx = vertexIndicesPos[j];
                 const VIndexT v1PosIdx = vertexIndicesPos[next];
@@ -143,7 +144,7 @@ namespace tgen
             // http://www.opengl-tutorial.org/intermediate-tutorials/tutorial-13-normal-mapping/
             for (std::size_t j = 0; j < 3; ++j)
             {
-                const size_t prev = (j + 2) % 3;
+                const std::size_t prev = (j + 2) % 3;
 
                 const RealT * dPos0    = edge3D[j];
                 const RealT * dPos1Neg = edge3D[prev];
