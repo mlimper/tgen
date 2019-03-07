@@ -155,7 +155,7 @@ namespace tgen
                 RealT * resultBitangent = &cBitangents3D[(i + j) * 3];
 
                 RealT denom = (dUV0[0] * -dUV1Neg[1] - dUV0[1] * -dUV1Neg[0]);
-                RealT r     = denom > DenomEps ? 1.0 / denom : 0.0;
+                RealT r     = std::abs(denom) > DenomEps ? 1.0 / denom : 0.0;
 
                 multVec3(dPos0,    -dUV1Neg[1] * r, tmp0);
                 multVec3(dPos1Neg, -dUV0[1]    * r, tmp1);
